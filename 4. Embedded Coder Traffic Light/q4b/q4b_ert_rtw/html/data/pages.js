@@ -1,0 +1,1 @@
+var reportPages = [["Summary","q4b_survey.html"],["Subsystem Report","q4b_subsystems.html"],["Code Interface Report","q4b_interface.html"],["Traceability Report","q4b_trace.html"],["Static Code Metrics Report","q4b_metrics.html"],["Code Replacements Report","q4b_replacements.html"],["Coder Assumptions","q4b_coderassumptions.html"]];

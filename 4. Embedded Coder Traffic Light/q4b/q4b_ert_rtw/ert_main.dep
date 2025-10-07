@@ -1,0 +1,37 @@
+ert_main.o: /home/amir/Desktop/Simulink/ex4/q4/q4b/q4b_ert_rtw/ert_main.c \
+ /home/amir/Desktop/Simulink/ex4/q4/q4b/q4b_ert_rtw/q4b.h \
+ /home/amir/Desktop/Simulink/ex4/q4/q4b/q4b_ert_rtw/rtwtypes.h \
+ /usr/local/MATLAB/R2024a/simulink/include/rtw_continuous.h \
+ /home/amir/Desktop/Simulink/ex4/q4/q4b/q4b_ert_rtw/rtwtypes.h \
+ /usr/local/MATLAB/R2024a/simulink/include/rtw_solver.h \
+ /usr/local/MATLAB/R2024a/simulink/include/rtw_continuous.h \
+ /home/amir/Desktop/Simulink/ex4/q4/q4b/q4b_ert_rtw/q4b_types.h \
+ /home/amir/Desktop/Simulink/ex4/q4/q4b/q4b_ert_rtw/MW_target_hardware_resources.h \
+ /home/amir/Documents/MATLAB/SupportPackages/R2024a/toolbox/target/supportpackages/arduinotarget/scheduler/include/arduinoAVRScheduler.h \
+ /home/amir/Documents/MATLAB/SupportPackages/R2024a/3P.instrset/arduinoide.instrset/aCLI/data/packages/arduino/hardware/avr/1.8.3/cores/arduino/Arduino.h \
+ /home/amir/Documents/MATLAB/SupportPackages/R2024a/3P.instrset/arduinoide.instrset/aCLI/data/packages/arduino/hardware/avr/1.8.3/cores/arduino/binary.h \
+ /home/amir/Documents/MATLAB/SupportPackages/R2024a/3P.instrset/arduinoide.instrset/aCLI/data/packages/arduino/hardware/avr/1.8.3/variants/standard/pins_arduino.h
+
+/home/amir/Desktop/Simulink/ex4/q4/q4b/q4b_ert_rtw/q4b.h:
+
+/home/amir/Desktop/Simulink/ex4/q4/q4b/q4b_ert_rtw/rtwtypes.h:
+
+/usr/local/MATLAB/R2024a/simulink/include/rtw_continuous.h:
+
+/home/amir/Desktop/Simulink/ex4/q4/q4b/q4b_ert_rtw/rtwtypes.h:
+
+/usr/local/MATLAB/R2024a/simulink/include/rtw_solver.h:
+
+/usr/local/MATLAB/R2024a/simulink/include/rtw_continuous.h:
+
+/home/amir/Desktop/Simulink/ex4/q4/q4b/q4b_ert_rtw/q4b_types.h:
+
+/home/amir/Desktop/Simulink/ex4/q4/q4b/q4b_ert_rtw/MW_target_hardware_resources.h:
+
+/home/amir/Documents/MATLAB/SupportPackages/R2024a/toolbox/target/supportpackages/arduinotarget/scheduler/include/arduinoAVRScheduler.h:
+
+/home/amir/Documents/MATLAB/SupportPackages/R2024a/3P.instrset/arduinoide.instrset/aCLI/data/packages/arduino/hardware/avr/1.8.3/cores/arduino/Arduino.h:
+
+/home/amir/Documents/MATLAB/SupportPackages/R2024a/3P.instrset/arduinoide.instrset/aCLI/data/packages/arduino/hardware/avr/1.8.3/cores/arduino/binary.h:
+
+/home/amir/Documents/MATLAB/SupportPackages/R2024a/3P.instrset/arduinoide.instrset/aCLI/data/packages/arduino/hardware/avr/1.8.3/variants/standard/pins_arduino.h:
