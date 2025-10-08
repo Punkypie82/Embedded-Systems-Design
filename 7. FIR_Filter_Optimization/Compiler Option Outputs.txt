@@ -1,0 +1,538 @@
+################No Optimization, Compiler O0, Out Test################
+
+ *  Executing task in folder q04_0: platformio run --environment uno 
+
+Processing uno (platform: atmelavr; board: uno; framework: arduino)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/atmelavr/uno.html
+PLATFORM: Atmel AVR (5.1.0) > Arduino Uno
+HARDWARE: ATMEGA328P 16MHz, 2KB RAM, 31.50KB Flash
+DEBUG: Current (avr-stub) External (avr-stub, simavr)
+PACKAGES: 
+ - framework-arduino-avr @ 5.2.0 
+ - toolchain-atmelavr @ 1.70300.191015 (7.3.0)
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 5 compatible libraries
+Scanning dependencies...
+No dependencies
+Building in release mode
+Compiling .pio/build/uno/src/main.cpp.o
+Archiving .pio/build/uno/libFrameworkArduinoVariant.a
+Compiling .pio/build/uno/FrameworkArduino/CDC.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial.cpp.o
+Indexing .pio/build/uno/libFrameworkArduinoVariant.a
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial0.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial1.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial2.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial3.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/IPAddress.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/PluggableUSB.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/Print.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/Stream.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/Tone.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/USBCore.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/WInterrupts.c.o
+Compiling .pio/build/uno/FrameworkArduino/WMath.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/WString.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/abi.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/hooks.c.o
+Compiling .pio/build/uno/FrameworkArduino/main.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/new.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/wiring.c.o
+Compiling .pio/build/uno/FrameworkArduino/wiring_analog.c.o
+Compiling .pio/build/uno/FrameworkArduino/wiring_digital.c.o
+Compiling .pio/build/uno/FrameworkArduino/wiring_pulse.S.o
+Compiling .pio/build/uno/FrameworkArduino/wiring_pulse.c.o
+Compiling .pio/build/uno/FrameworkArduino/wiring_shift.c.o
+Archiving .pio/build/uno/libFrameworkArduino.a
+Indexing .pio/build/uno/libFrameworkArduino.a
+Linking .pio/build/uno/firmware.elf
+Checking size .pio/build/uno/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [==        ]  16.6% (used 340 bytes from 2048 bytes)
+Flash: [=         ]   9.9% (used 3180 bytes from 32256 bytes)
+Building .pio/build/uno/firmware.hex
+================================================================================= [SUCCESS] Took 0.61 seconds =================================================================================
+ *  Terminal will be reused by tasks, press any key to close it. 
+
+
+################No Optimization, Compiler O0, Time Test###############
+
+Processing uno (platform: atmelavr; board: uno; framework: arduino)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/atmelavr/uno.html
+PLATFORM: Atmel AVR (5.1.0) > Arduino Uno
+HARDWARE: ATMEGA328P 16MHz, 2KB RAM, 31.50KB Flash
+DEBUG: Current (avr-stub) External (avr-stub, simavr)
+PACKAGES: 
+ - framework-arduino-avr @ 5.2.0 
+ - toolchain-atmelavr @ 1.70300.191015 (7.3.0)
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 5 compatible libraries
+Scanning dependencies...
+No dependencies
+Building in release mode
+Compiling .pio/build/uno/src/main.cpp.o
+Linking .pio/build/uno/firmware.elf
+Checking size .pio/build/uno/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [==        ]  17.6% (used 360 bytes from 2048 bytes)
+Flash: [=         ]   8.1% (used 2608 bytes from 32256 bytes)
+Building .pio/build/uno/firmware.hex
+================================================================================= [SUCCESS] Took 0.43 seconds =================================================================================
+ *  Terminal will be reused by tasks, press any key to close it. 
+
+
+################No Optimization, Compiler O1, Out Test################
+
+ *  Executing task in folder q04_0: platformio run --environment uno 
+
+Processing uno (platform: atmelavr; board: uno; framework: arduino)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/atmelavr/uno.html
+PLATFORM: Atmel AVR (5.1.0) > Arduino Uno
+HARDWARE: ATMEGA328P 16MHz, 2KB RAM, 31.50KB Flash
+DEBUG: Current (avr-stub) External (avr-stub, simavr)
+PACKAGES: 
+ - framework-arduino-avr @ 5.2.0 
+ - toolchain-atmelavr @ 1.70300.191015 (7.3.0)
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 5 compatible libraries
+Scanning dependencies...
+No dependencies
+Building in release mode
+Compiling .pio/build/uno/src/main.cpp.o
+Archiving .pio/build/uno/libFrameworkArduinoVariant.a
+Compiling .pio/build/uno/FrameworkArduino/CDC.cpp.o
+Indexing .pio/build/uno/libFrameworkArduinoVariant.a
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial0.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial1.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial2.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial3.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/IPAddress.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/PluggableUSB.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/Print.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/Stream.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/Tone.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/USBCore.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/WInterrupts.c.o
+Compiling .pio/build/uno/FrameworkArduino/WMath.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/WString.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/abi.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/hooks.c.o
+Compiling .pio/build/uno/FrameworkArduino/main.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/new.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/wiring.c.o
+Compiling .pio/build/uno/FrameworkArduino/wiring_analog.c.o
+Compiling .pio/build/uno/FrameworkArduino/wiring_digital.c.o
+Compiling .pio/build/uno/FrameworkArduino/wiring_pulse.S.o
+Compiling .pio/build/uno/FrameworkArduino/wiring_pulse.c.o
+Compiling .pio/build/uno/FrameworkArduino/wiring_shift.c.o
+Archiving .pio/build/uno/libFrameworkArduino.a
+Indexing .pio/build/uno/libFrameworkArduino.a
+Linking .pio/build/uno/firmware.elf
+Checking size .pio/build/uno/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [==        ]  16.6% (used 340 bytes from 2048 bytes)
+Flash: [=         ]   9.9% (used 3180 bytes from 32256 bytes)
+Building .pio/build/uno/firmware.hex
+================================================================================= [SUCCESS] Took 0.63 seconds =================================================================================
+ *  Terminal will be reused by tasks, press any key to close it.
+
+
+################No Optimization, Compiler O1, Time Test###############
+
+ *  Executing task in folder q04_0: platformio run --environment uno 
+
+Processing uno (platform: atmelavr; board: uno; framework: arduino)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/atmelavr/uno.html
+PLATFORM: Atmel AVR (5.1.0) > Arduino Uno
+HARDWARE: ATMEGA328P 16MHz, 2KB RAM, 31.50KB Flash
+DEBUG: Current (avr-stub) External (avr-stub, simavr)
+PACKAGES: 
+ - framework-arduino-avr @ 5.2.0 
+ - toolchain-atmelavr @ 1.70300.191015 (7.3.0)
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 5 compatible libraries
+Scanning dependencies...
+No dependencies
+Building in release mode
+Compiling .pio/build/uno/src/main.cpp.o
+Linking .pio/build/uno/firmware.elf
+Checking size .pio/build/uno/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [==        ]  17.6% (used 360 bytes from 2048 bytes)
+Flash: [=         ]   8.1% (used 2608 bytes from 32256 bytes)
+Building .pio/build/uno/firmware.hex
+======================================================================================== [SUCCESS] Took 0.42 seconds ========================================================================================
+ *  Terminal will be reused by tasks, press any key to close it.
+
+
+################No Optimization, Compiler O2, Out Test################
+
+ *  Executing task in folder q04_0: platformio run --environment uno 
+
+Processing uno (platform: atmelavr; board: uno; framework: arduino)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/atmelavr/uno.html
+PLATFORM: Atmel AVR (5.1.0) > Arduino Uno
+HARDWARE: ATMEGA328P 16MHz, 2KB RAM, 31.50KB Flash
+DEBUG: Current (avr-stub) External (avr-stub, simavr)
+PACKAGES: 
+ - framework-arduino-avr @ 5.2.0 
+ - toolchain-atmelavr @ 1.70300.191015 (7.3.0)
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 5 compatible libraries
+Scanning dependencies...
+No dependencies
+Building in release mode
+Compiling .pio/build/uno/src/main.cpp.o
+Archiving .pio/build/uno/libFrameworkArduinoVariant.a
+Compiling .pio/build/uno/FrameworkArduino/CDC.cpp.o
+Indexing .pio/build/uno/libFrameworkArduinoVariant.a
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial0.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial1.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial2.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial3.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/IPAddress.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/PluggableUSB.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/Print.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/Stream.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/Tone.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/USBCore.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/WInterrupts.c.o
+Compiling .pio/build/uno/FrameworkArduino/WMath.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/WString.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/abi.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/hooks.c.o
+Compiling .pio/build/uno/FrameworkArduino/main.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/new.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/wiring.c.o
+Compiling .pio/build/uno/FrameworkArduino/wiring_analog.c.o
+Compiling .pio/build/uno/FrameworkArduino/wiring_digital.c.o
+Compiling .pio/build/uno/FrameworkArduino/wiring_pulse.S.o
+Compiling .pio/build/uno/FrameworkArduino/wiring_pulse.c.o
+Compiling .pio/build/uno/FrameworkArduino/wiring_shift.c.o
+Archiving .pio/build/uno/libFrameworkArduino.a
+Indexing .pio/build/uno/libFrameworkArduino.a
+Linking .pio/build/uno/firmware.elf
+Checking size .pio/build/uno/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [==        ]  16.6% (used 340 bytes from 2048 bytes)
+Flash: [=         ]   9.9% (used 3180 bytes from 32256 bytes)
+Building .pio/build/uno/firmware.hex
+======================================================================================== [SUCCESS] Took 0.64 seconds ========================================================================================
+ *  Terminal will be reused by tasks, press any key to close it.
+
+
+################No Optimization, Compiler O2, Time Test###############
+
+ *  Executing task in folder q04_0: platformio run --environment uno 
+
+Processing uno (platform: atmelavr; board: uno; framework: arduino)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/atmelavr/uno.html
+PLATFORM: Atmel AVR (5.1.0) > Arduino Uno
+HARDWARE: ATMEGA328P 16MHz, 2KB RAM, 31.50KB Flash
+DEBUG: Current (avr-stub) External (avr-stub, simavr)
+PACKAGES: 
+ - framework-arduino-avr @ 5.2.0 
+ - toolchain-atmelavr @ 1.70300.191015 (7.3.0)
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 5 compatible libraries
+Scanning dependencies...
+No dependencies
+Building in release mode
+Compiling .pio/build/uno/src/main.cpp.o
+Linking .pio/build/uno/firmware.elf
+Checking size .pio/build/uno/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [==        ]  17.6% (used 360 bytes from 2048 bytes)
+Flash: [=         ]   8.1% (used 2608 bytes from 32256 bytes)
+Building .pio/build/uno/firmware.hex
+======================================================================================== [SUCCESS] Took 0.44 seconds ========================================================================================
+ *  Terminal will be reused by tasks, press any key to close it.
+
+
+################No Optimization, Compiler O3, Out Test################
+
+ *  Executing task in folder q04_0: platformio run --environment uno 
+
+Processing uno (platform: atmelavr; board: uno; framework: arduino)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/atmelavr/uno.html
+PLATFORM: Atmel AVR (5.1.0) > Arduino Uno
+HARDWARE: ATMEGA328P 16MHz, 2KB RAM, 31.50KB Flash
+DEBUG: Current (avr-stub) External (avr-stub, simavr)
+PACKAGES: 
+ - framework-arduino-avr @ 5.2.0 
+ - toolchain-atmelavr @ 1.70300.191015 (7.3.0)
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 5 compatible libraries
+Scanning dependencies...
+No dependencies
+Building in release mode
+Compiling .pio/build/uno/src/main.cpp.o
+Archiving .pio/build/uno/libFrameworkArduinoVariant.a
+Compiling .pio/build/uno/FrameworkArduino/CDC.cpp.o
+Indexing .pio/build/uno/libFrameworkArduinoVariant.a
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial0.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial1.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial2.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial3.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/IPAddress.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/PluggableUSB.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/Print.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/Stream.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/Tone.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/USBCore.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/WInterrupts.c.o
+Compiling .pio/build/uno/FrameworkArduino/WMath.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/WString.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/abi.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/hooks.c.o
+Compiling .pio/build/uno/FrameworkArduino/main.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/new.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/wiring.c.o
+Compiling .pio/build/uno/FrameworkArduino/wiring_analog.c.o
+Compiling .pio/build/uno/FrameworkArduino/wiring_digital.c.o
+Compiling .pio/build/uno/FrameworkArduino/wiring_pulse.S.o
+Compiling .pio/build/uno/FrameworkArduino/wiring_pulse.c.o
+Compiling .pio/build/uno/FrameworkArduino/wiring_shift.c.o
+Archiving .pio/build/uno/libFrameworkArduino.a
+Indexing .pio/build/uno/libFrameworkArduino.a
+Linking .pio/build/uno/firmware.elf
+Checking size .pio/build/uno/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [==        ]  16.6% (used 340 bytes from 2048 bytes)
+Flash: [=         ]   9.9% (used 3180 bytes from 32256 bytes)
+Building .pio/build/uno/firmware.hex
+======================================================================================== [SUCCESS] Took 0.62 seconds ========================================================================================
+ *  Terminal will be reused by tasks, press any key to close it.
+
+
+################No Optimization, Compiler O3, Time Test###############
+
+ *  Executing task in folder q04_0: platformio run --environment uno 
+
+Processing uno (platform: atmelavr; board: uno; framework: arduino)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/atmelavr/uno.html
+PLATFORM: Atmel AVR (5.1.0) > Arduino Uno
+HARDWARE: ATMEGA328P 16MHz, 2KB RAM, 31.50KB Flash
+DEBUG: Current (avr-stub) External (avr-stub, simavr)
+PACKAGES: 
+ - framework-arduino-avr @ 5.2.0 
+ - toolchain-atmelavr @ 1.70300.191015 (7.3.0)
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 5 compatible libraries
+Scanning dependencies...
+No dependencies
+Building in release mode
+Compiling .pio/build/uno/src/main.cpp.o
+Linking .pio/build/uno/firmware.elf
+Checking size .pio/build/uno/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [==        ]  17.6% (used 360 bytes from 2048 bytes)
+Flash: [=         ]   8.1% (used 2608 bytes from 32256 bytes)
+Building .pio/build/uno/firmware.hex
+======================================================================================== [SUCCESS] Took 0.41 seconds ========================================================================================
+ *  Terminal will be reused by tasks, press any key to close it.
+
+
+################No Optimization, Compiler Os, Out Test################
+
+ *  Executing task in folder q04_0: platformio run --environment uno 
+
+Processing uno (platform: atmelavr; board: uno; framework: arduino)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/atmelavr/uno.html
+PLATFORM: Atmel AVR (5.1.0) > Arduino Uno
+HARDWARE: ATMEGA328P 16MHz, 2KB RAM, 31.50KB Flash
+DEBUG: Current (avr-stub) External (avr-stub, simavr)
+PACKAGES: 
+ - framework-arduino-avr @ 5.2.0 
+ - toolchain-atmelavr @ 1.70300.191015 (7.3.0)
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 5 compatible libraries
+Scanning dependencies...
+No dependencies
+Building in release mode
+Compiling .pio/build/uno/src/main.cpp.o
+Archiving .pio/build/uno/libFrameworkArduinoVariant.a
+Compiling .pio/build/uno/FrameworkArduino/CDC.cpp.o
+Indexing .pio/build/uno/libFrameworkArduinoVariant.a
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial0.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial1.cpp.o
+In file included from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/USBAPI.h:27:0,
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/Arduino.h:234,
+                 from src/main.cpp:1:
+/home/amir/.platformio/packages/toolchain-atmelavr/avr/include/util/delay.h:112:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed" [-Wcpp]
+ # warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+   ^~~~~~~
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial2.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/HardwareSerial3.cpp.o
+In file included from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/USBAPI.h:27:0,
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/CDC.cpp:19:
+/home/amir/.platformio/packages/toolchain-atmelavr/avr/include/util/delay.h:112:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed" [-Wcpp]
+ # warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+   ^~~~~~~
+Compiling .pio/build/uno/FrameworkArduino/IPAddress.cpp.o
+In file included from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/USBAPI.h:27:0,
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/Arduino.h:234,
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial0.cpp:25:
+/home/amir/.platformio/packages/toolchain-atmelavr/avr/include/util/delay.h:112:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed" [-Wcpp]
+ # warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+   ^~~~~~~
+Compiling .pio/build/uno/FrameworkArduino/PluggableUSB.cpp.o
+In file included from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/USBAPI.h:27:0,
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/Arduino.h:234,
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial.cpp:30:
+/home/amir/.platformio/packages/toolchain-atmelavr/avr/include/util/delay.h:112:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed" [-Wcpp]
+ # warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+   ^~~~~~~
+In file included from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/USBAPI.h:27:0,
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/Arduino.h:234,
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial1.cpp:25:
+/home/amir/.platformio/packages/toolchain-atmelavr/avr/include/util/delay.h:112:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed" [-Wcpp]
+ # warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+   ^~~~~~~
+In file included from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/USBAPI.h:27:0,
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/Arduino.h:234,
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial3.cpp:25:
+Compiling .pio/build/uno/FrameworkArduino/Print.cpp.o
+/home/amir/.platformio/packages/toolchain-atmelavr/avr/include/util/delay.h:112:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed" [-Wcpp]
+ # warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+   ^~~~~~~
+In file included from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/USBAPI.h:27:0,
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/Arduino.h:234,
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial2.cpp:25:
+/home/amir/.platformio/packages/toolchain-atmelavr/avr/include/util/delay.h:112:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed" [-Wcpp]
+ # warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+   ^~~~~~~
+In file included from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/USBAPI.h:27:0,
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/Arduino.h:234,
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/IPAddress.cpp:20:
+/home/amir/.platformio/packages/toolchain-atmelavr/avr/include/util/delay.h:112:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed" [-Wcpp]
+ # warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+   ^~~~~~~
+Compiling .pio/build/uno/FrameworkArduino/Stream.cpp.o
+In file included from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/USBAPI.h:27:0,
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/PluggableUSB.cpp:20:
+/home/amir/.platformio/packages/toolchain-atmelavr/avr/include/util/delay.h:112:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed" [-Wcpp]
+ # warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+   ^~~~~~~
+In file included from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/USBAPI.h:27:0,
+Compiling .pio/build/uno/FrameworkArduino/Tone.cpp.o
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/Arduino.h:234,
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/Print.cpp:27:
+/home/amir/.platformio/packages/toolchain-atmelavr/avr/include/util/delay.h:112:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed" [-Wcpp]
+ # warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+   ^~~~~~~
+Compiling .pio/build/uno/FrameworkArduino/USBCore.cpp.o
+In file included from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/USBAPI.h:27:0,
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/Arduino.h:234,
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/Stream.cpp:25:
+/home/amir/.platformio/packages/toolchain-atmelavr/avr/include/util/delay.h:112:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed" [-Wcpp]
+ # warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+   ^~~~~~~
+Compiling .pio/build/uno/FrameworkArduino/WInterrupts.c.o
+Compiling .pio/build/uno/FrameworkArduino/WMath.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/WString.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/abi.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/hooks.c.o
+In file included from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/USBAPI.h:27:0,
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/Arduino.h:234,
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/Tone.cpp:39:
+/home/amir/.platformio/packages/toolchain-atmelavr/avr/include/util/delay.h:112:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed" [-Wcpp]
+ # warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+   ^~~~~~~
+In file included from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/USBAPI.h:27:0,
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/USBCore.cpp:20:
+/home/amir/.platformio/packages/toolchain-atmelavr/avr/include/util/delay.h:112:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed" [-Wcpp]
+ # warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+   ^~~~~~~
+Compiling .pio/build/uno/FrameworkArduino/main.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/new.cpp.o
+Compiling .pio/build/uno/FrameworkArduino/wiring.c.o
+In file included from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/USBAPI.h:27:0,
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/Arduino.h:234,
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/main.cpp:20:
+/home/amir/.platformio/packages/toolchain-atmelavr/avr/include/util/delay.h:112:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed" [-Wcpp]
+ # warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+   ^~~~~~~
+Compiling .pio/build/uno/FrameworkArduino/wiring_analog.c.o
+Compiling .pio/build/uno/FrameworkArduino/wiring_digital.c.o
+Compiling .pio/build/uno/FrameworkArduino/wiring_pulse.S.o
+Compiling .pio/build/uno/FrameworkArduino/wiring_pulse.c.o
+Compiling .pio/build/uno/FrameworkArduino/wiring_shift.c.o
+Archiving .pio/build/uno/libFrameworkArduino.a
+Indexing .pio/build/uno/libFrameworkArduino.a
+Linking .pio/build/uno/firmware.elf
+Checking size .pio/build/uno/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [==        ]  22.2% (used 454 bytes from 2048 bytes)
+Flash: [===       ]  29.8% (used 9618 bytes from 32256 bytes)
+Building .pio/build/uno/firmware.hex
+======================================================================================== [SUCCESS] Took 1.29 seconds ========================================================================================
+ *  Terminal will be reused by tasks, press any key to close it.
+
+
+################No Optimization, Compiler Os, Time Test###############
+
+ *  Executing task in folder q04_0: platformio run --environment uno 
+
+Processing uno (platform: atmelavr; board: uno; framework: arduino)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/atmelavr/uno.html
+PLATFORM: Atmel AVR (5.1.0) > Arduino Uno
+HARDWARE: ATMEGA328P 16MHz, 2KB RAM, 31.50KB Flash
+DEBUG: Current (avr-stub) External (avr-stub, simavr)
+PACKAGES: 
+ - framework-arduino-avr @ 5.2.0 
+ - toolchain-atmelavr @ 1.70300.191015 (7.3.0)
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 5 compatible libraries
+Scanning dependencies...
+No dependencies
+Building in release mode
+Compiling .pio/build/uno/src/main.cpp.o
+In file included from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/USBAPI.h:27:0,
+                 from /home/amir/.platformio/packages/framework-arduino-avr/cores/arduino/Arduino.h:234,
+                 from src/main.cpp:1:
+/home/amir/.platformio/packages/toolchain-atmelavr/avr/include/util/delay.h:112:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed" [-Wcpp]
+ # warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+   ^~~~~~~
+Linking .pio/build/uno/firmware.elf
+Checking size .pio/build/uno/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [==        ]  23.7% (used 486 bytes from 2048 bytes)
+Flash: [===       ]  30.1% (used 9716 bytes from 32256 bytes)
+Building .pio/build/uno/firmware.hex
+======================================================================================== [SUCCESS] Took 0.74 seconds ========================================================================================
+ *  Terminal will be reused by tasks, press any key to close it. 
