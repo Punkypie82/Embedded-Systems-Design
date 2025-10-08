@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../q03_b_build"
+		},
+		{
+			"name": "q03_b_test",
+			"path": "../.."
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,58 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/amir/Desktop/Simulink/ex8/q03_b_test/include",
+                "/home/amir/Desktop/Simulink/ex8/q03_b_test/src",
+                "/home/amir/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/amir/.platformio/packages/framework-arduino-avr/variants/standard",
+                "/home/amir/Desktop/Simulink/ex8/q03_b_test/.pio/libdeps/uno/Unity/src",
+                "/home/amir/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/amir/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/amir/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/amir/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/home/amir/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/amir/Desktop/Simulink/ex8/q03_b_test/include",
+                    "/home/amir/Desktop/Simulink/ex8/q03_b_test/src",
+                    "/home/amir/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/amir/.platformio/packages/framework-arduino-avr/variants/standard",
+                    "/home/amir/Desktop/Simulink/ex8/q03_b_test/.pio/libdeps/uno/Unity/src",
+                    "/home/amir/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/amir/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/amir/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/amir/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/home/amir/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60118",
+                "ARDUINO_AVR_UNO",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "compilerPath": "/home/amir/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

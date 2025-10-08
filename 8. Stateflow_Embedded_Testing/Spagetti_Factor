@@ -1,0 +1,5 @@
+SCC = 11 + 1 = 12
+Global = 4 (DW rtDW; ExtU rtU; ExtY rtY; RT_MODEL *const rtM = &rtM_;)
+SLOC = 67 (all lines which are not empty, not commented, and not {})
+
+Spagetti Factor (SF) = 12 + (4 * 5) + (67 / 20) = 35.35
