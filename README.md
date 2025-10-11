@@ -2,6 +2,17 @@
 
 This repository contains a comprehensive collection of model-based design (MBD) projects and embedded systems implementations using MATLAB/Simulink, C/C++, and various embedded platforms. The projects demonstrate advanced concepts in control systems, real-time systems, embedded programming, and system verification.
 
+<table>
+  <tr>
+    <td><img src="assets/wokwi_run.gif"></td>
+    <td><img src="assets/combined_light_model.png"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/architecture_model.png"></td>
+    <td><img src="assets/controller_equilibrium.png"></td>
+  </tr>
+</table>
+
 ## 📁 Project Structure
 
 ### [1. Inverted Pendulum Controller](./1.%20Inverted%20Pendulum%20Controller/)
